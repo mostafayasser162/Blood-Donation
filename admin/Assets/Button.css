@@ -1,0 +1,87 @@
+  @font-face {
+    font-family: "Montserrat-Medium";
+    src: url("../Assets/Montserrat/Montserrat-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: "Montserrat-Black";
+    src: url("../Assets/Montserrat/Montserrat-Black.ttf");
+  }
+  
+  @font-face {
+    font-family: "Montserrat-Extra-Bold";
+    src: url("../Assets/Montserrat/Montserrat-ExtraBold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../Assets/Montserrat/Montserrat-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../Assets/Montserrat/Montserrat-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("../Assets/Montserrat/Montserrat-SemiBold.ttf");
+  }
+
+  @font-face {
+    font-family: "NewsCycle-Regular";
+    src: url("../Assets/NewsCycle/NewsCycle-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "NewsCycle-Bold";
+    src: url("../Assets/NewsCycle/NewsCycle-Bold.ttf");
+  }
+  
+  /* Start Navbar */
+  .Logo {
+    width: 200px;
+  }
+  
+  a:hover {
+    color: #c6414c !important;
+    transition: all .4s ease;
+  }
+  
+  .nav-item {
+    padding: 0px 20px;
+  }
+  
+  .nav-link {
+    font-family: "NewsCycle-Regular";
+  }
+  
+  .login-link {
+    background-color: #c6414c !important;
+    color: white !important;
+    border-radius: 50px !important;
+    width: auto;
+    padding: 10px 40px !important;
+    font-size: 16px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "NewsCycle-Bold";
+  }
+
+  .login-link:hover {
+    color: white !important;
+  }
+
+  .link {
+    background-color: #c6414c !important;
+    color: white !important;    
+  }
+
+  .link:hover {
+    color: white !important;
+    outline: none;
+  }
+
+  /* End Navbar */

@@ -1,0 +1,120 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'News Cycle', sans-serif;
+}
+
+  .Logo {
+    width: 200px;
+  }
+  
+  a:hover {
+    color: #c6414c !important;
+    transition: all .4s ease;
+  }
+  
+  .nav-item {
+    padding: 0px 20px;
+  }
+  
+  .nav-link {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'News Cycle', sans-serif;
+  }
+  
+  .login-link {
+    background-color: #c6414c !important;
+    color: white !important;
+    border-radius: 50px !important;
+    width: 10%;
+    padding: 10px 20px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'News Cycle', sans-serif;
+  }
+
+  .login-link:hover {
+    color: white !important;
+  }
+  
+  h5 {
+    text-align: center;
+  }
+
+  .location,
+  .telephone-call,
+  .gmail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    text-align: left;
+    gap: 8px;
+  }
+
+  .location {
+    gap: 13px;
+  }
+
+  .img-footer {
+    display: flex;
+    margin-top: 40px;
+  }
+
+  .opening-time:hover {
+    color: #6c757d!important;;
+  }
+
+  .facebook,
+  .twitter,
+  .instagram {
+    margin-right: 8px;
+  }
+
+  .facebook-icon,
+  .twitter-icon,
+  .instagram-icon,
+  .youtube-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .login-link{
+    width: 20%;
+  }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .login-link{
+    width: 20%;
+  }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .login-link{
+    width: 20%;
+  }
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .login-link{
+    width: 16%;
+  }
+}
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  
+  .login-link{
+    width: 14%;
+} }

@@ -1,0 +1,191 @@
+* {box-sizing: border-box
+}
+body{
+  background-image: url(Form.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  text-align: center;
+  flex-basis: 8%;
+  border: solid rgb(225, 222, 222) 1.5px;
+  box-shadow: #ffffff;
+  background-color: white;
+  border-radius: 10px;
+  width: 80% !important;
+}
+h1{
+  font-style:unset;
+  text-align: center;
+  font-weight: 900;
+  color: #c6414c;
+}
+b{
+    color: rgb(191, 138, 138);
+    font-size: 200%;
+    font-weight: 500;
+}
+input[type=checkbox]{
+  background-color: white;
+  margin: 1rem 0.5rem auto;
+  font-size: large;
+  font-family:monospace;
+  border-radius: 30px;
+  box-shadow: 0px 0px 9px rgba(0,0,0,0.26);
+  width: 18px;
+  height: 18px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  text-align: center;
+}
+
+input[type=date], input[type=Phonenumber]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;  
+    text-align: center; 
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  text-align: center;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #c6414c;
+  color: white;
+  padding: 16px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+  border-radius: 8px;
+}
+
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: #0d6efd !important;
+  text-decoration: none !important;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+form .gender-details .gender-title{
+  
+  color: rgb(191, 138, 138);
+    font-size: 200%;
+    font-weight: 500;
+
+}
+
+form .gender-details .category{
+  font-size: large;
+  font-family:monospace;
+  padding-left: 210px;
+  
+  display: flex;
+  align-items: center;
+  width: 80%;
+  
+  justify-content:space-around
+
+}
+.gender-details .category label{
+display: flex;
+align-items: center;
+}
+.gender-details .category .dot{
+  height: 18px;
+  width: 18px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+
+}
+#dot-1:checked ~ .category label .one,
+  #dot-2:checked ~ .category label .two,
+  #dot-3:checked ~ .category label .three{
+border-color: #d9d9d9;
+background: #c6414c;
+}
+form input[type="radio"]{
+  display: none;
+}
+
+  @media (max-width: 390px){
+    form .gender-details.category{
+display: flex;
+justify-content: space-between;
+overflow-y: scroll;
+    }
+  }
+
+
+
+  .regi{
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    justify-content:center;
+    width: 52%;
+    
+    
+    }
+
+
+    
+
+    .container b{
+      font-size: larger;
+      
+    }
+    
+
+
+
+    
+ 
+    @media screen and (min-width: 320px) and (max-width: 720px) {
+      .regi {
+          width: 100%;
+      }
+    }
+      
+
+    
